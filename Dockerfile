@@ -25,6 +25,6 @@ EXPOSE 25565/tcp
 
 ENV MOTD="FTB Evolution v1.33.1 Server Powered by Docker"
 ENV LEVEL=world
-ENV JVM_OPTS="-Xms6144m -Xmx8092m"
+ENV JVM_OPTS="-Xms6656m -Xmx8192m"
 
 CMD ["/launch.sh"]
